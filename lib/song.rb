@@ -24,4 +24,8 @@ class Song
     @artist
   end
 
+  def count
+    @@count
+  ends
+
 end
