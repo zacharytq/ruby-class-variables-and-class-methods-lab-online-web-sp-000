@@ -11,4 +11,8 @@ class Song
     @genre = genre
     @@genres << genre
   end
+
+  def name
+    @song
+  end
 end
